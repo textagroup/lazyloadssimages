@@ -1,0 +1,9 @@
+HtmlEditorField:
+  extensions:
+    - HtmlEditorFieldLazyLoadExtension
+SiteTree:
+  extensions:
+    - SiteTreeLazyLoadExtension
+Controller:
+  extensions:
+    - ControllerLazyLoadExtension

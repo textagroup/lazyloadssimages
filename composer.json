@@ -1,0 +1,13 @@
+{
+    "name": "textagroup/lazyloadssimages",
+    "type": "silverstripe-module",
+    "keywords": ["Lazy", "load", "images", "http", "requests", "speed", "SilverStripe"],
+    "description": "SilverStripe module to lazy load images",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Kirk Mayo",
+            "email": "kirk.mayo@solnet.co.nz"
+        }
+    ]
+}
