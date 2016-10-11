@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Requirements
 
-    * SilverStripe 3.0 +
+    * SilverStripe 3.2 +
 
 ## Features
 
