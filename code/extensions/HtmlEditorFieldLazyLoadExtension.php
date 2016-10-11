@@ -18,7 +18,7 @@ class HtmlEditorFieldLazyLoadExtension extends DataExtension {
                 // add lazy class if it does not exist already
                 $classes = $img->getAttribute('class');
                 if (!preg_grep('/lazy/i', explode(' ', $classes))) {
-                    $class = (empty($class)) ? 'lazy' : ' lazy';
+                    $class = (empty($classes)) ? 'lazy' : "$classes lazy";
                     $img->setAttribute('class', $class);
                 }
             }
