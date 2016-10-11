@@ -48,6 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 After the module is installed you will need to confirm that the jQuery library is
 being used as this is required by jquery.lazyload.min.js
+
 Any existing pages with images will not be affected until the page has been saved via the CMS.
 
 ## TODO ##
