@@ -8,10 +8,10 @@ class RequireLazyLoadJSTest extends FunctionalTest {
 
 	protected static $fixture_file = 'LazyLoadControllersTest.yml';
 
-    public function testLazyLoadJSInclusion() {
-        $page = Page::get()->filter('Title', 'Home')->first();
-        $page->publish('Stage', 'Live');
-        $response = Director::test('/');
-        $this->assertRegExp('/jquery\.lazyload\.min\.js/', $response->getBody());
-    }
+	public function testLazyLoadJSInclusion() {
+		$page = Page::get()->filter('Title', 'Home')->first();
+		$page->publish('Stage', 'Live');
+		$response = Director::test('/');
+		$this->assertRegExp('/jquery\.lazyload\.min\.js/', $response->getBody());
+	}
 }

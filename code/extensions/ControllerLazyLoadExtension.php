@@ -6,8 +6,8 @@
  */
 
 class ControllerLazyLoadExtension extends DataExtension {
-    public function onAfterInit() {
-        $moduleDirectory = basename(dirname(dirname(dirname(__FILE__))));
-        Requirements::javascript("$moduleDirectory/js/jquery.lazyload.min.js");
-    }
+	public function onAfterInit() {
+		$moduleDirectory = basename(dirname(dirname(dirname(__FILE__))));
+		Requirements::javascript("$moduleDirectory/js/jquery.lazyload.min.js");
+	}
 }

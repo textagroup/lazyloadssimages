@@ -22,11 +22,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Maintainer Contact
 
-    * Kirk Mayo kirk.mayo (at) solnet (dot) co.nz
+	* Kirk Mayo kirk.mayo (at) solnet (dot) co.nz
 
 ## Requirements
 
-    * SilverStripe 3.2 +
+	* SilverStripe 3.2 +
 
 ## Features
 
